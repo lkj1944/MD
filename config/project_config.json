@@ -1,0 +1,14 @@
+{
+  "mode": "release",
+  "logger": {
+    "log_format": "[<g>{time:YYYY-MM-DD HH:mm:ss.SSS}</g>] <le>[{file.path}]</le>\n[{process.name}][{thread.name}][<lvl>{level}</lvl>:{function}:{line}] <b><y>{message}</y></b>",
+    "dev_log_level": "DEBUG",
+    "release_log_level": "INFO",
+    "log_file_path": "{root}/log/",
+    "log_file_name": "{time:YYYY-MM-DD}.log",
+    "log_file_settings": {
+      "rotation": "1 days",
+      "retention": "1 month"
+    }
+  }
+}
