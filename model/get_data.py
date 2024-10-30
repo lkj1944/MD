@@ -14,9 +14,10 @@ from model.tools import ProcessABC
 from loguru import logger
 import hashlib
 
+
 def get_start_time():
-    num_turbines = 982 # 风机数量，写死
-    earliest_start_time = datetime(year=2020,month=1,day=1,hour=0)
+    num_turbines = 982  # 风机数量，写死
+    earliest_start_time = datetime(year=2020, month=1, day=1, hour=0)
     try:
         for turbine_id in range(1, num_turbines + 1):
             excel_name = f"../xlsx/turbine{turbine_id}.xlsx"
@@ -26,6 +27,8 @@ def get_start_time():
     except FileNotFoundError as e:
         pass
     return earliest_start_time
+
+
 class GetData(ProcessABC):
     """
     获取数据对象
@@ -38,8 +41,8 @@ class GetData(ProcessABC):
     def run(self, **kwargs):
 
         now_time = kwargs['params']
-        self.end_time = now_time
-        self.start_time = get_start_time()
+        # self.end_time = now_time
+        # self.start_time = get_start_time()
         data = self.get_influx()
         return self.return_data(data=data, start_time=self.start_time, end_time=self.end_time)
 
@@ -53,18 +56,19 @@ class GetData(ProcessABC):
           |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
         """
         try:
-            influx = self.db_util.query_flux(bucket_name='time_series_data', import_name='regexp',
+            influx = self.db_util.query_flux(bucket_name='time_series_data',
                                              start=self.start_time,
                                              end=self.end_time,
                                              filter=query_filter, return_type='df')
         except Exception as e:
             logger.warning(f"[GetData]实时数据获取失败: {e}")
             raise e
-        finally:
-            logger.info(
-                f"[GetData]在时间窗口{self.start_time}:{self.end_time}上查询到数据{influx.shape[0]}条.")
+        # finally:
+        #     logger.info(
+        #         f"[GetData]在时间窗口{self.start_time}:{self.end_time}上查询到数据{influx.shape[0]}条.")
 
         return {'influx': influx}
+
 
 if __name__ == "__main__":
     model = GetData()

@@ -86,3 +86,497 @@
 [MainProcess][MainThread][ERROR:get_influx:56] query_flux在5次重试后失败.
 [2024-10-30 14:42:12.386] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
 [MainProcess][MainThread][WARNING:get_influx:61] [GetData]实时数据获取失败: <urllib3.connection.HTTPConnection object at 0x000001A219ABEEB0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-30 22:18:39.556] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 22:18:39.555894)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:18:39.619] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第1次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:18:39 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:18:39.619] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 22:18:39.555894)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:18:39.648] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第2次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:18:39 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:18:39.648] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 22:18:39.555894)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:18:39.676] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第3次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:18:39 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:18:39.676] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 22:18:39.555894)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:18:39.705] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第4次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:18:39 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:18:39.705] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 22:18:39.555894)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:18:39.733] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第5次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:18:39 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:18:39.733] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:59] query_flux在5次重试后失败.
+[2024-10-30 22:18:39.733] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:64] [GetData]实时数据获取失败: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:18:39 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:24:28.694] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 22:24:12.699911)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:24:28.759] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第1次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:24:28 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:24:28.760] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 22:24:12.699911)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:24:28.789] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第2次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:24:28 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:24:28.790] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 22:24:12.699911)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:24:28.819] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第3次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:24:28 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:24:28.820] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 22:24:12.699911)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:24:28.850] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第4次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:24:28 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:24:28.851] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 22:24:12.699911)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:24:28.881] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第5次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:24:28 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:24:28.881] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:59] query_flux在5次重试后失败.
+[2024-10-30 22:24:28.881] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:64] [GetData]实时数据获取失败: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:24:28 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:27:33.686] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 22:26:18.968626)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:28:24.455] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第1次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:28:22 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:28:25.938] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 22:26:18.968626)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:28:26.856] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第2次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:28:25 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:28:26.856] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 22:26:18.968626)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:28:26.886] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第3次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:28:26 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:28:26.886] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 22:26:18.968626)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:28:26.916] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第4次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:28:26 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:28:26.916] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 22:26:18.968626)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:28:26.944] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第5次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:28:26 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:28:26.945] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:59] query_flux在5次重试后失败.
+[2024-10-30 22:28:26.945] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:64] [GetData]实时数据获取失败: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:28:26 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:31:20.372] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 22:31:01.288607)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:33:03.806] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:33:03.863] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第1次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:33:03 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:33:03.863] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:33:03.890] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第2次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:33:03 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:33:03.891] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:33:03.918] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第3次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:33:03 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:33:03.918] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:33:03.945] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第4次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:33:03 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:33:03.945] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:33:03.972] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第5次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:33:03 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:33:03.972] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:59] query_flux在5次重试后失败.
+[2024-10-30 22:33:03.972] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:64] [GetData]实时数据获取失败: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:33:03 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:33:35.883] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:34:25.155] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:34:25.220] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第1次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:34:25 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:34:25.220] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:34:25.251] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第2次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:34:25 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:34:25.251] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:34:25.283] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第3次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:34:25 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:34:25.283] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:34:25.313] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第4次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:34:25 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:34:25.313] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:34:25.343] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第5次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:34:25 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:34:25.344] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:59] query_flux在5次重试后失败.
+[2024-10-30 22:34:25.344] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:64] [GetData]实时数据获取失败: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:34:25 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:34:44.920] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:34:44.985] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第1次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:34:44 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:34:44.985] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:34:45.017] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第2次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:34:44 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:34:45.017] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:34:45.046] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第3次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:34:44 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:34:45.047] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:34:45.077] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第4次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:34:44 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:34:45.078] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:34:45.110] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第5次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:34:44 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:34:45.110] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:59] query_flux在5次重试后失败.
+[2024-10-30 22:34:45.110] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:64] [GetData]实时数据获取失败: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:34:44 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:35:45.869] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:35:45.935] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第1次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:35:45 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:35:45.935] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:35:45.967] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第2次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:35:45 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:35:45.967] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:35:45.998] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第3次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:35:45 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:35:45.998] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:35:46.030] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第4次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:35:45 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:35:46.030] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:35:46.060] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第5次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:35:45 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:35:46.060] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:59] query_flux在5次重试后失败.
+[2024-10-30 22:35:46.060] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:64] [GetData]实时数据获取失败: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Wed, 30 Oct 2024 14:35:45 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '110', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"time_series_data\\" not found"}'
+
+[2024-10-30 22:36:22.313] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:36:23.011] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第1次重试失败, 异常为: 'DataFrame' object has no attribute 'append'
+[2024-10-30 22:36:23.012] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:36:31.057] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第2次重试失败, 异常为: 'DataFrame' object has no attribute 'append'
+[2024-10-30 22:36:31.057] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:36:36.587] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第3次重试失败, 异常为: 'DataFrame' object has no attribute 'append'
+[2024-10-30 22:36:36.587] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:36:39.358] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第4次重试失败, 异常为: 'DataFrame' object has no attribute 'append'
+[2024-10-30 22:36:39.359] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:36:40.941] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第5次重试失败, 异常为: 'DataFrame' object has no attribute 'append'
+[2024-10-30 22:36:40.941] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:59] query_flux在5次重试后失败.
+[2024-10-30 22:36:40.941] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:64] [GetData]实时数据获取失败: 'DataFrame' object has no attribute 'append'
+[2024-10-30 22:47:29.818] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:47:31.305] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第1次重试失败, 异常为: cannot concatenate object of type '<class 'influxdb_client.client.flux_table.FluxTable'>'; only Series and DataFrame objs are valid
+[2024-10-30 22:47:31.307] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:47:39.835] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第2次重试失败, 异常为: cannot concatenate object of type '<class 'influxdb_client.client.flux_table.FluxTable'>'; only Series and DataFrame objs are valid
+[2024-10-30 22:47:39.836] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:47:46.208] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第3次重试失败, 异常为: cannot concatenate object of type '<class 'influxdb_client.client.flux_table.FluxTable'>'; only Series and DataFrame objs are valid
+[2024-10-30 22:47:46.210] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:47:51.665] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第4次重试失败, 异常为: cannot concatenate object of type '<class 'influxdb_client.client.flux_table.FluxTable'>'; only Series and DataFrame objs are valid
+[2024-10-30 22:47:51.666] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:47:57.435] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第5次重试失败, 异常为: cannot concatenate object of type '<class 'influxdb_client.client.flux_table.FluxTable'>'; only Series and DataFrame objs are valid
+[2024-10-30 22:47:57.435] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:59] query_flux在5次重试后失败.
+[2024-10-30 22:47:57.435] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:64] [GetData]实时数据获取失败: cannot concatenate object of type '<class 'influxdb_client.client.flux_table.FluxTable'>'; only Series and DataFrame objs are valid
+[2024-10-30 22:53:52.951] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:57:29.148] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 22:58:05.505] [C:\Users\LLXKA\PycharmProjects\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        

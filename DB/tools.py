@@ -230,7 +230,7 @@ class connection(GetClient):
         if start and end:
             flux_sql += f'|>range(start: {start}, stop: {end})'
         else:
-            flux_sql += f'|>range(start: {last_time})'
+            flux_sql += f'|>range(start: {last_time}, stop:now())'
         if filter:
             for i in filter:
                 flux_sql = flux_sql + i
@@ -239,22 +239,35 @@ class connection(GetClient):
         if limit:
             flux_sql += f'|>limit(n: {limit})'
         logger.opt(depth=2).info(f"当前查询的fluxql为: {flux_sql}")
-        if return_type.lower() == 'df':
-            tables = self.query_api.query_data_frame(flux_sql)
-        else:
-            tables = self.query_api.query(flux_sql)
+        # if return_type.lower() == 'df':
+        tables = self.query_api.query(flux_sql)
+        data = []
+        for _table in tables:
+            for record in _table.records:
+                row = {
+                    'time': record.get_time(),
+                    '_value': record.get_value(),
+                    '_field': record.values['_field'],
+                    '_measurement': record.values['_measurement']
+                }
+                data.append(row)
+        df = pd.DataFrame(data)
+        df['time'] = df['time'].dt.tz_convert('Asia/Shanghai')
+        df['time'] = df['time'].dt.tz_localize(None)
+        # else:
+        #     tables = self.query_api.query(flux_sql)
         if return_type.lower() == 'own_df':
             """
             该变量对应own_df的话代表返回自定义的dataframe
             """
             pass
         # 因为单次查询数量超过36W条会分页，因此在这里合并
-        if isinstance(tables, list):
-            res_df = pd.DataFrame([])
-            for table in tables:
-                res_df = pd.concat([res_df, table])
-        else:
-            res_df = tables
+        # if isinstance(tables, list):
+        #     res_df = pd.DataFrame([])
+        #     for table in tables:
+        #         res_df = pd.concat([res_df, table])
+        # else:
+        res_df = df
         if res_df.empty:
             raise Exception(f"当前查询的fluxql为: {flux_sql}, 但是查询结果为空.")
         return res_df
