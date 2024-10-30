@@ -5,7 +5,7 @@ import json
 import os
 import sys
 
-cfg_path = 'config/project_config.json'
+cfg_path = '../config/project_config.json'
 with open(cfg_path) as f:
     global_config = json.load(f)
 

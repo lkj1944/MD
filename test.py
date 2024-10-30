@@ -19,8 +19,8 @@ query_api = client.query_api()
 start_time = datetime.now(pytz.utc)
 try:
     query = """
-from(bucket: "time_series_data2")
-  |> range(start: -2d, stop: now())
+from(bucket: "time_series_data")
+  |> range(start: -5m, stop: now())
   |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
     """
     query_tables = query_api.query(query)

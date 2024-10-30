@@ -1,0 +1,88 @@
+[2024-10-30 14:32:31.317] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][WARNING:__init__:65] get_flux_client第1次重试失败, 异常为: No section: 'InfluxDBHome'
+[2024-10-30 14:32:32.329] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][WARNING:__init__:65] get_flux_client第2次重试失败, 异常为: No section: 'InfluxDBHome'
+[2024-10-30 14:32:34.343] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][WARNING:__init__:65] get_flux_client第3次重试失败, 异常为: No section: 'InfluxDBHome'
+[2024-10-30 14:32:37.354] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][WARNING:__init__:65] get_flux_client第4次重试失败, 异常为: No section: 'InfluxDBHome'
+[2024-10-30 14:32:41.368] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][WARNING:__init__:65] get_flux_client第5次重试失败, 异常为: No section: 'InfluxDBHome'
+[2024-10-30 14:32:46.373] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:__init__:65] get_flux_client在5次重试后失败.
+[2024-10-30 14:35:06.467] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:57] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 14:35:27.512] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:57] query_flux第1次重试失败, 异常为: <urllib3.connection.HTTPConnection object at 0x0000016E5041A310>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-30 14:35:27.513] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:57] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 14:35:48.568] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:57] query_flux第2次重试失败, 异常为: <urllib3.connection.HTTPConnection object at 0x0000016E503FECA0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-30 14:35:48.569] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:57] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 14:36:09.609] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:57] query_flux第3次重试失败, 异常为: <urllib3.connection.HTTPConnection object at 0x0000016E5041A5E0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-30 14:36:09.609] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:57] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 14:36:30.638] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:57] query_flux第4次重试失败, 异常为: <urllib3.connection.HTTPConnection object at 0x0000016E5041A8B0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-30 14:36:30.638] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:57] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 14:36:51.679] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:57] query_flux第5次重试失败, 异常为: <urllib3.connection.HTTPConnection object at 0x0000016E5041AB80>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-30 14:36:51.679] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:57] query_flux在5次重试后失败.
+[2024-10-30 14:36:51.679] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:62] [GetData]实时数据获取失败: <urllib3.connection.HTTPConnection object at 0x0000016E5041AB80>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-30 14:37:51.874] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:57] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: -10m)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 14:40:21.927] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:56] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 14:39:59.493401)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 14:40:27.221] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:56] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 14:40:27.221435)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 14:40:48.246] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:56] query_flux第1次重试失败, 异常为: <urllib3.connection.HTTPConnection object at 0x000001A219ABE370>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-30 14:40:48.246] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:56] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 14:40:27.221435)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 14:41:09.288] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:56] query_flux第2次重试失败, 异常为: <urllib3.connection.HTTPConnection object at 0x000001A219ABE640>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-30 14:41:09.288] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:56] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 14:40:27.221435)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 14:41:30.317] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:56] query_flux第3次重试失败, 异常为: <urllib3.connection.HTTPConnection object at 0x000001A219ABE910>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-30 14:41:30.317] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:56] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 14:40:27.221435)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 14:41:51.357] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:56] query_flux第4次重试失败, 异常为: <urllib3.connection.HTTPConnection object at 0x000001A219ABEBE0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-30 14:41:51.357] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:56] 当前查询的fluxql为: import "regexp"from(bucket: "time_series_data")|>range(start: 2020-01-01 00:00:00, stop: 2024-10-30 14:40:27.221435)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-30 14:42:12.386] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:56] query_flux第5次重试失败, 异常为: <urllib3.connection.HTTPConnection object at 0x000001A219ABEEB0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-30 14:42:12.386] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:56] query_flux在5次重试后失败.
+[2024-10-30 14:42:12.386] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:61] [GetData]实时数据获取失败: <urllib3.connection.HTTPConnection object at 0x000001A219ABEEB0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
