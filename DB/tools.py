@@ -228,7 +228,7 @@ class connection(GetClient):
         import_sql = f'import "{import_name}"'
         flux_sql = import_sql + f'from(bucket: "{bucket_name}")' if import_name else f'from(bucket: "{bucket_name}")'
         if start and end:
-            flux_sql += f'|>range(start: {start}, stop: {end})'
+            flux_sql += f'|>range(start: time(v:"{start.isoformat()}"), stop: time(v:"{end.isoformat()}"))'
         else:
             flux_sql += f'|>range(start: {last_time}, stop:now())'
         if filter:

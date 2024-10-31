@@ -1,0 +1,590 @@
+[2024-10-31 09:15:44.259] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 09:16:05.307] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第1次重试失败, 异常为: <urllib3.connection.HTTPConnection object at 0x00000263968C82E0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-31 09:16:05.310] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 09:16:26.356] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第2次重试失败, 异常为: <urllib3.connection.HTTPConnection object at 0x00000263968C85B0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-31 09:16:26.356] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 09:16:47.405] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第3次重试失败, 异常为: <urllib3.connection.HTTPConnection object at 0x00000263968C83A0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-31 09:16:47.405] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 09:17:08.433] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第4次重试失败, 异常为: <urllib3.connection.HTTPConnection object at 0x00000263968C8880>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-31 09:17:08.433] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 09:17:29.501] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:59] query_flux第5次重试失败, 异常为: <urllib3.connection.HTTPConnection object at 0x00000263968C8B50>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-31 09:17:29.501] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:59] query_flux在5次重试后失败.
+[2024-10-31 09:17:29.501] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:64] [GetData]实时数据获取失败: <urllib3.connection.HTTPConnection object at 0x00000263968C8B50>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[2024-10-31 09:39:03.078] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 09:54:00.251] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 09:54:00.579] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:67] [GetData]在时间窗口None:None上查询到数据827条.
+[2024-10-31 09:54:24.044] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 09:54:24.343] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:67] [GetData]在时间窗口None:None上查询到数据655条.
+[2024-10-31 09:54:41.554] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:59] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 09:54:42.112] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:67] [GetData]在时间窗口None:None上查询到数据655条.
+[2024-10-31 13:32:01.822] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:60] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 13:32:09.789] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:68] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 13:32:37.091] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:60] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 13:32:40.534] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:68] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 13:34:48.900] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:60] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 13:34:52.204] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:68] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 13:35:48.804] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:60] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 13:35:52.260] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:68] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 13:38:17.620] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:60] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 13:38:21.129] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:68] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 13:40:34.206] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:60] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 13:40:37.207] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:68] [GetData]在时间窗口None:None上查询到数据4976条.
+[2024-10-31 13:43:01.536] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:60] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 13:43:04.541] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:68] [GetData]在时间窗口None:None上查询到数据4976条.
+[2024-10-31 13:43:21.701] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:60] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 13:43:22.858] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:68] [GetData]在时间窗口None:None上查询到数据4976条.
+[2024-10-31 13:46:16.684] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:60] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 13:46:17.831] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:68] [GetData]在时间窗口None:None上查询到数据4976条.
+[2024-10-31 13:56:09.444] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:60] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 13:56:10.632] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:68] [GetData]在时间窗口None:None上查询到数据4976条.
+[2024-10-31 13:56:33.844] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:60] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 13:56:35.009] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:68] [GetData]在时间窗口None:None上查询到数据4976条.
+[2024-10-31 13:58:09.586] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:60] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 13:58:12.876] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:68] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 14:00:50.143] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:60] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 14:00:53.127] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:68] [GetData]在时间窗口None:None上查询到数据4976条.
+[2024-10-31 14:03:37.954] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:60] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 14:03:40.968] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:68] [GetData]在时间窗口None:None上查询到数据4976条.
+[2024-10-31 14:04:06.060] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:60] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 14:04:09.054] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:68] [GetData]在时间窗口None:None上查询到数据4976条.
+[2024-10-31 14:04:44.085] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:60] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 14:04:45.153] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:68] [GetData]在时间窗口None:None上查询到数据4354条.
+[2024-10-31 14:24:04.702] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:72] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 14:24:05.880] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:80] [GetData]在时间窗口None:None上查询到数据4976条.
+[2024-10-31 14:30:22.031] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:72] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 14:30:25.047] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:80] [GetData]在时间窗口None:None上查询到数据4976条.
+[2024-10-31 14:34:05.000] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:72] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 14:34:07.990] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:80] [GetData]在时间窗口None:None上查询到数据4976条.
+[2024-10-31 14:34:18.705] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:72] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 14:34:19.734] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:80] [GetData]在时间窗口None:None上查询到数据4354条.
+[2024-10-31 14:38:21.752] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:72] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 14:38:23.084] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:80] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 14:38:56.728] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:72] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 14:39:00.178] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:80] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 14:45:43.508] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:74] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 14:45:46.885] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:82] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 14:47:08.454] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:74] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 14:47:11.746] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:82] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 14:48:03.468] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:74] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 14:48:04.746] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:82] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 14:50:27.433] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:74] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 14:50:28.724] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:82] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 14:53:36.729] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:74] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 14:53:38.024] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:82] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 14:55:19.032] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:75] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 14:55:20.182] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:83] [GetData]在时间窗口None:None上查询到数据4976条.
+[2024-10-31 14:55:29.278] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:run:109] 查找../xlsx/turbine127.xlsx文件时出现错误Bad magic number for file header
+[2024-10-31 14:55:29.281] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:run:109] 查找../xlsx/turbine127.xlsx文件时出现错误Bad magic number for file header
+[2024-10-31 14:55:29.283] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:run:109] 查找../xlsx/turbine127.xlsx文件时出现错误Bad magic number for file header
+[2024-10-31 14:55:29.285] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:run:109] 查找../xlsx/turbine127.xlsx文件时出现错误Bad magic number for file header
+[2024-10-31 14:55:29.287] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:run:109] 查找../xlsx/turbine127.xlsx文件时出现错误Bad magic number for file header
+[2024-10-31 14:55:29.288] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:run:109] 查找../xlsx/turbine127.xlsx文件时出现错误Bad magic number for file header
+[2024-10-31 14:55:29.290] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:run:109] 查找../xlsx/turbine127.xlsx文件时出现错误Bad magic number for file header
+[2024-10-31 14:55:29.292] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:run:109] 查找../xlsx/turbine127.xlsx文件时出现错误Bad magic number for file header
+[2024-10-31 15:02:31.303] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 15:02:32.623] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:85] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 15:03:15.562] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 15:03:18.720] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:85] [GetData]在时间窗口None:None上查询到数据4976条.
+[2024-10-31 15:03:50.007] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 15:03:53.569] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:85] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 15:05:12.336] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 15:05:15.995] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:85] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 15:05:44.292] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 15:05:48.029] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:85] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 15:07:22.653] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 15:07:25.967] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:85] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 15:07:41.377] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 15:07:44.745] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:85] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 15:13:31.184] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:78] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 15:13:32.364] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:86] [GetData]在时间窗口None:None上查询到数据4976条.
+[2024-10-31 15:18:16.844] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:78] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -10m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 15:18:20.152] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:86] [GetData]在时间窗口None:None上查询到数据5598条.
+[2024-10-31 16:18:28.634] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: 2024-10-31 15:18:11, stop: 2024-10-31 16:18:25.549630)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:18:28.736] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第1次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:18:29 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:61-1:64: missing property key\\nerror at @1:64-1:67: missing property key\\nerror at @1:88-1:91: missing property key\\nerror at @1:91-1:101: missing property key"}'
+
+[2024-10-31 16:18:28.737] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: 2024-10-31 15:18:11, stop: 2024-10-31 16:18:25.549630)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:18:28.776] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第2次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:18:29 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:61-1:64: missing property key\\nerror at @1:64-1:67: missing property key\\nerror at @1:88-1:91: missing property key\\nerror at @1:91-1:101: missing property key"}'
+
+[2024-10-31 16:18:28.776] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: 2024-10-31 15:18:11, stop: 2024-10-31 16:18:25.549630)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:18:28.857] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第3次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:18:29 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:61-1:64: missing property key\\nerror at @1:64-1:67: missing property key\\nerror at @1:88-1:91: missing property key\\nerror at @1:91-1:101: missing property key"}'
+
+[2024-10-31 16:18:28.857] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: 2024-10-31 15:18:11, stop: 2024-10-31 16:18:25.549630)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:18:28.894] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第4次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:18:29 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:61-1:64: missing property key\\nerror at @1:64-1:67: missing property key\\nerror at @1:88-1:91: missing property key\\nerror at @1:91-1:101: missing property key"}'
+
+[2024-10-31 16:18:28.895] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: 2024-10-31 15:18:11, stop: 2024-10-31 16:18:25.549630)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:18:28.935] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第5次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:18:29 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:61-1:64: missing property key\\nerror at @1:64-1:67: missing property key\\nerror at @1:88-1:91: missing property key\\nerror at @1:91-1:101: missing property key"}'
+
+[2024-10-31 16:18:28.936] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:77] query_flux在5次重试后失败.
+[2024-10-31 16:18:28.936] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:82] [GetData]实时数据获取失败: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:18:29 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:35-1:102: expected comma in property list, got COLON\\nerror at @1:61-1:64: missing property key\\nerror at @1:64-1:67: missing property key\\nerror at @1:88-1:91: missing property key\\nerror at @1:91-1:101: missing property key"}'
+
+[2024-10-31 16:30:23.224] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: 2024-10-31 15:18:11+08:00, stop: 2024-10-31 16:30:20.146399+08:00)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:30:23.402] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第1次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:30:24 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:61-1:64: missing property key\\nerror at @1:64-1:70: missing property key\\nerror at @1:70-1:73: missing property key\\nerror at @1:94-1:97: missing property key\\nerror at @1:97-1:110: missing property key\\nerror at @1:110-1:113: missing property key"}'
+
+[2024-10-31 16:30:23.402] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: 2024-10-31 15:18:11+08:00, stop: 2024-10-31 16:30:20.146399+08:00)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:30:23.447] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第2次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:30:24 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:61-1:64: missing property key\\nerror at @1:64-1:70: missing property key\\nerror at @1:70-1:73: missing property key\\nerror at @1:94-1:97: missing property key\\nerror at @1:97-1:110: missing property key\\nerror at @1:110-1:113: missing property key"}'
+
+[2024-10-31 16:30:23.447] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: 2024-10-31 15:18:11+08:00, stop: 2024-10-31 16:30:20.146399+08:00)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:30:23.570] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第3次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:30:24 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:61-1:64: missing property key\\nerror at @1:64-1:70: missing property key\\nerror at @1:70-1:73: missing property key\\nerror at @1:94-1:97: missing property key\\nerror at @1:97-1:110: missing property key\\nerror at @1:110-1:113: missing property key"}'
+
+[2024-10-31 16:30:23.570] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: 2024-10-31 15:18:11+08:00, stop: 2024-10-31 16:30:20.146399+08:00)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:30:23.664] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第4次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:30:24 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:61-1:64: missing property key\\nerror at @1:64-1:70: missing property key\\nerror at @1:70-1:73: missing property key\\nerror at @1:94-1:97: missing property key\\nerror at @1:97-1:110: missing property key\\nerror at @1:110-1:113: missing property key"}'
+
+[2024-10-31 16:30:23.665] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: 2024-10-31 15:18:11+08:00, stop: 2024-10-31 16:30:20.146399+08:00)
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:30:23.777] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第5次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:30:24 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:61-1:64: missing property key\\nerror at @1:64-1:70: missing property key\\nerror at @1:70-1:73: missing property key\\nerror at @1:94-1:97: missing property key\\nerror at @1:97-1:110: missing property key\\nerror at @1:110-1:113: missing property key"}'
+
+[2024-10-31 16:30:23.777] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:77] query_flux在5次重试后失败.
+[2024-10-31 16:30:23.777] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:82] [GetData]实时数据获取失败: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:30:24 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:35-1:114: expected comma in property list, got COLON\\nerror at @1:61-1:64: missing property key\\nerror at @1:64-1:70: missing property key\\nerror at @1:70-1:73: missing property key\\nerror at @1:94-1:97: missing property key\\nerror at @1:97-1:110: missing property key\\nerror at @1:110-1:113: missing property key"}'
+
+[2024-10-31 16:31:59.184] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: "2024-10-31 15:18:11+08:00", stop: "2024-10-31 16:31:56.430497+08:00")
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:31:59.335] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第1次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:32:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"error calling function \\"range\\" @1:35-1:118: value is not a time, got string"}'
+
+[2024-10-31 16:31:59.335] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: "2024-10-31 15:18:11+08:00", stop: "2024-10-31 16:31:56.430497+08:00")
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:31:59.378] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第2次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:32:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"error calling function \\"range\\" @1:35-1:118: value is not a time, got string"}'
+
+[2024-10-31 16:31:59.378] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: "2024-10-31 15:18:11+08:00", stop: "2024-10-31 16:31:56.430497+08:00")
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:31:59.414] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第3次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:32:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"error calling function \\"range\\" @1:35-1:118: value is not a time, got string"}'
+
+[2024-10-31 16:31:59.414] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: "2024-10-31 15:18:11+08:00", stop: "2024-10-31 16:31:56.430497+08:00")
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:31:59.453] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第4次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:32:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"error calling function \\"range\\" @1:35-1:118: value is not a time, got string"}'
+
+[2024-10-31 16:31:59.453] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: "2024-10-31 15:18:11+08:00", stop: "2024-10-31 16:31:56.430497+08:00")
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:31:59.536] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第5次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:32:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"error calling function \\"range\\" @1:35-1:118: value is not a time, got string"}'
+
+[2024-10-31 16:31:59.536] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:77] query_flux在5次重试后失败.
+[2024-10-31 16:31:59.538] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:82] [GetData]实时数据获取失败: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:32:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"error calling function \\"range\\" @1:35-1:118: value is not a time, got string"}'
+
+[2024-10-31 16:34:32.968] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: "2024-10-31T15:18:11+08:00", stop: "2024-10-31T16:34:30.283535+08:00")
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:34:33.108] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第1次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:34:34 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"error calling function \\"range\\" @1:35-1:118: value is not a time, got string"}'
+
+[2024-10-31 16:34:33.109] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: "2024-10-31T15:18:11+08:00", stop: "2024-10-31T16:34:30.283535+08:00")
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:34:33.241] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第2次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:34:34 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"error calling function \\"range\\" @1:35-1:118: value is not a time, got string"}'
+
+[2024-10-31 16:34:33.241] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: "2024-10-31T15:18:11+08:00", stop: "2024-10-31T16:34:30.283535+08:00")
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:34:33.284] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第3次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:34:34 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"error calling function \\"range\\" @1:35-1:118: value is not a time, got string"}'
+
+[2024-10-31 16:34:33.284] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: "2024-10-31T15:18:11+08:00", stop: "2024-10-31T16:34:30.283535+08:00")
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:34:33.360] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第4次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:34:34 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"error calling function \\"range\\" @1:35-1:118: value is not a time, got string"}'
+
+[2024-10-31 16:34:33.361] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: "2024-10-31T15:18:11+08:00", stop: "2024-10-31T16:34:30.283535+08:00")
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:34:33.417] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第5次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:34:34 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"error calling function \\"range\\" @1:35-1:118: value is not a time, got string"}'
+
+[2024-10-31 16:34:33.418] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:77] query_flux在5次重试后失败.
+[2024-10-31 16:34:33.418] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:82] [GetData]实时数据获取失败: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:34:34 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"error calling function \\"range\\" @1:35-1:118: value is not a time, got string"}'
+
+[2024-10-31 16:48:43.919] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: time(v:"2024-10-31T15:18:11+08:00"), stop: time(v:"2024-10-31T16:48:41.404731+08:00")
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:48:43.991] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第1次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:48:45 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-3:9: expected RPAREN, got EOF"}'
+
+[2024-10-31 16:48:43.992] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: time(v:"2024-10-31T15:18:11+08:00"), stop: time(v:"2024-10-31T16:48:41.404731+08:00")
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:48:44.052] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第2次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:48:45 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-3:9: expected RPAREN, got EOF"}'
+
+[2024-10-31 16:48:44.053] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: time(v:"2024-10-31T15:18:11+08:00"), stop: time(v:"2024-10-31T16:48:41.404731+08:00")
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:48:44.085] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第3次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:48:45 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-3:9: expected RPAREN, got EOF"}'
+
+[2024-10-31 16:48:44.086] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: time(v:"2024-10-31T15:18:11+08:00"), stop: time(v:"2024-10-31T16:48:41.404731+08:00")
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:48:44.122] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第4次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:48:45 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-3:9: expected RPAREN, got EOF"}'
+
+[2024-10-31 16:48:44.123] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: time(v:"2024-10-31T15:18:11+08:00"), stop: time(v:"2024-10-31T16:48:41.404731+08:00")
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:48:44.157] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第5次重试失败, 异常为: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:48:45 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-3:9: expected RPAREN, got EOF"}'
+
+[2024-10-31 16:48:44.157] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:77] query_flux在5次重试后失败.
+[2024-10-31 16:48:44.157] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:82] [GetData]实时数据获取失败: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Server': 'nginx/1.20.1', 'Date': 'Thu, 31 Oct 2024 08:48:45 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': '2.1.1', 'X-Platform-Error-Code': 'invalid'})
+HTTP response body: b'{"code":"invalid","message":"compilation failed: error at @1:35-3:9: expected RPAREN, got EOF"}'
+
+[2024-10-31 16:49:41.495] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: time(v:"2024-10-31T15:18:11+08:00"), stop: time(v:"2024-10-31T16:49:38.952185+08:00"))
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-10-31 16:50:18.356] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:85] [GetData]在时间窗口2024-10-31 15:18:11+08:00:2024-10-31 16:49:38.952185+08:00上查询到数据51626条.
