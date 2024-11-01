@@ -47,6 +47,7 @@ def run(flow, **kwargs):
         for cls in flow:
             time_start_func = time()
             attr = Faced.create_flow(cls)
+            logger.info(f"{cls}.run()开始执行{datetime.now()}")
             params = attr.run(params=params)
             time_end_func = time()
             logger.info(f"{cls}.run()执行时长：{time_end_func - time_start_func}")
@@ -64,7 +65,7 @@ def main(**kwargs):
     :return:
     """
     now_time = datetime.now()
-    flow = ['GetData', 'FetchAlarmData', 'DataAnalysis', 'WriteAggAlarmData']
+    flow = ['GetData', 'FetchAlarmData', 'DataAnalysis', 'WriteRes']
     run(flow, now_time=now_time)
 
 
@@ -74,10 +75,10 @@ if __name__ == '__main__':
     # parser.add_argument('--class_name', nargs='+', help='Class names')
     # parser.add_argument('--start_time', help='Start time')
     # parser.add_argument('--end_time', help='End time')
-    scheduler.add_job(
-        main,
-        CronTrigger(minute='*/10'),  # 每五分钟执行一次
-        id='alarm_data_process'
-    )
-    scheduler.start()
+    # scheduler.add_job(
+    #     main,
+    #     CronTrigger(minute='*/10'),  # 每五分钟执行一次
+    #     id='alarm_data_process'
+    # )
+    # scheduler.start()
     main()

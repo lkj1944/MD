@@ -1,0 +1,42 @@
+[2024-11-01 17:49:03.086] [C:\Users\35310\Desktop\cccc_alg\MD\run.py]
+[MainProcess][MainThread][ERROR:run:57] flow GetData failed with exception:module 'model' has no attribute 'GetData', runtime parameter is 2024-11-01 17:48:58.516427
+[2024-11-01 17:49:07.747] [C:\Users\35310\Desktop\cccc_alg\MD\run.py]
+[MainProcess][MainThread][ERROR:run:57] flow GetData failed with exception:module 'model' has no attribute 'GetData', runtime parameter is 2024-11-01 17:49:07.746477
+[2024-11-01 17:57:50.837] [C:\Users\35310\Desktop\cccc_alg\MD\run.py]
+[MainProcess][MainThread][INFO:run:50] GetData.run()开始执行2024-11-01 17:57:50.837213
+[2024-11-01 17:57:50.840] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -5m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-11-01 17:57:50.916] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第1次重试失败, 异常为: 'time'
+[2024-11-01 17:57:50.916] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -5m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-11-01 17:57:50.958] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第2次重试失败, 异常为: 'time'
+[2024-11-01 17:57:50.958] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -5m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-11-01 17:57:51.001] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第3次重试失败, 异常为: 'time'
+[2024-11-01 17:57:51.001] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -5m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-11-01 17:57:51.052] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第4次重试失败, 异常为: 'time'
+[2024-11-01 17:57:51.053] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][INFO:get_influx:77] 当前查询的fluxql为: from(bucket: "time_series_data")|>range(start: -5m, stop:now())
+          |> filter(fn: (r) => r["_measurement"] == "FN01SW2012RAW")
+        
+[2024-11-01 17:57:51.098] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:77] query_flux第5次重试失败, 异常为: 'time'
+[2024-11-01 17:57:51.099] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][ERROR:get_influx:77] query_flux在5次重试后失败.
+[2024-11-01 17:57:51.099] [C:\Users\35310\Desktop\cccc_alg\MD\model\get_data.py]
+[MainProcess][MainThread][WARNING:get_influx:82] [GetData]实时数据获取失败: 'time'
+[2024-11-01 17:57:51.099] [C:\Users\35310\Desktop\cccc_alg\MD\run.py]
+[MainProcess][MainThread][ERROR:run:57] flow GetData failed with exception:local variable 'influx' referenced before assignment, runtime parameter is 2024-11-01 17:57:50.296325

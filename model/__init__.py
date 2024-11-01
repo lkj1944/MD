@@ -1,3 +1,6 @@
+from model.get_data import GetData, FetchAlarmData
+from model.data_analysis import DataAnalysis
+from model.write_data import WriteRes
 from loguru import logger
 import logging
 
@@ -5,7 +8,7 @@ import json
 import os
 import sys
 
-cfg_path = '../config/project_config.json'
+cfg_path = 'project_config.json'
 with open(cfg_path) as f:
     global_config = json.load(f)
 

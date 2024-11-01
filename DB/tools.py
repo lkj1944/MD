@@ -207,7 +207,7 @@ class connection(GetClient):
         return res_dict
 
     @retry(max_attempts=5, delay=0)
-    def query_flux(self, bucket_name, start=None, end=None, filter=None, last_time='-10m', limit=None, import_name=None,
+    def query_flux(self, bucket_name, start=None, end=None, filter=None, last_time='-5m', limit=None, import_name=None,
                    sort=False, return_type='original'):
         """
         给influxdb写的二开接口，主要是为了简介开发查询语句

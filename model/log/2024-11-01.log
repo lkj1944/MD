@@ -1,0 +1,1384 @@
+[2024-11-01 17:07:44.185] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:44.186] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 1, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:44.255] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:44.256] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 10, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:44.332] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:44.333] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:12:34'), 100, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:44.414] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:44.414] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:13:39'), Timestamp('2024-10-31 16:28:59'), 100, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:44.508] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:44.508] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:30:04'), Timestamp('2024-10-31 16:31:14'), 100, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:44.593] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:44.593] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:32:21'), Timestamp('2024-10-31 16:49:21'), 100, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:44.704] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:44.705] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:03:18'), 101, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:44.787] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:44.787] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:04:22'), Timestamp('2024-10-31 16:08:51'), 101, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:44.890] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:44.891] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:09:55'), Timestamp('2024-10-31 16:15:58'), 101, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:44.973] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:44.973] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:17:05'), Timestamp('2024-10-31 16:26:56'), 101, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:45.056] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:45.056] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:27:57'), Timestamp('2024-10-31 16:32:21'), 101, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:45.143] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:45.144] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:33:26'), Timestamp('2024-10-31 16:33:26'), 101, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:45.224] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:45.225] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:34:31'), Timestamp('2024-10-31 16:49:21'), 101, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:45.304] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:45.304] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:24:45'), 102, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:45.381] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:45.381] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:25:51'), Timestamp('2024-10-31 16:32:21'), 102, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:45.459] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:45.459] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:33:26'), Timestamp('2024-10-31 16:33:26'), 102, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:45.543] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:45.543] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:34:31'), Timestamp('2024-10-31 16:49:21'), 102, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:45.622] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:45.622] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:23:39'), 103, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:45.703] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:45.704] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:24:45'), Timestamp('2024-10-31 16:24:45'), 103, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:45.791] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:45.791] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:25:51'), Timestamp('2024-10-31 16:34:31'), 103, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:45.881] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:45.881] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:35:38'), Timestamp('2024-10-31 16:49:21'), 103, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:45.963] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:45.963] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:24:45'), 104, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:46.048] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:46.048] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:25:51'), Timestamp('2024-10-31 16:35:38'), 104, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:46.133] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:46.133] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:36:40'), Timestamp('2024-10-31 16:36:40'), 104, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:46.219] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:46.219] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:37:44'), Timestamp('2024-10-31 16:43:18'), 104, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:46.305] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:46.306] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:44:45'), Timestamp('2024-10-31 16:49:21'), 104, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:46.411] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:46.411] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:25:51'), 105, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:46.502] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:46.502] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:26:56'), Timestamp('2024-10-31 16:36:40'), 105, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:46.586] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:46.586] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:37:44'), Timestamp('2024-10-31 16:49:21'), 105, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:46.671] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:46.673] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:26:56'), 106, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:46.755] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:46.756] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:27:57'), Timestamp('2024-10-31 16:44:45'), 106, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:46.838] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:46.839] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:45:55'), Timestamp('2024-10-31 16:49:21'), 106, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:46.919] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:46.921] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:32:21'), 107, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:47.005] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:47.005] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:33:26'), Timestamp('2024-10-31 16:49:21'), 107, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:47.085] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:47.085] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:31:14'), 108, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:47.166] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:47.166] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:32:21'), Timestamp('2024-10-31 16:49:21'), 108, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:47.259] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:47.259] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 109, '111', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:47.340] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:47.340] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 11, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:47.415] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:47.415] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:39:59'), 110, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:47.495] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:47.495] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:41:04'), Timestamp('2024-10-31 16:49:21'), 110, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:47.572] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:47.573] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:41:04'), 111, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:47.648] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:47.648] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:42:14'), Timestamp('2024-10-31 16:49:21'), 111, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:47.729] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:47.730] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:48:17'), 112, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:47.808] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:47.808] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:49:21'), Timestamp('2024-10-31 16:49:21'), 112, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:47.898] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:47.898] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 113, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:47.977] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:47.978] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 114, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:48.053] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:48.053] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 115, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:48.139] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:48.139] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 116, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:48.226] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:48.226] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 117, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:48.305] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:48.305] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 118, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:48.389] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:48.389] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 119, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:48.466] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:48.466] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 12, '111', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:48.549] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:48.549] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 120, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:48.644] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:48.644] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 121, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:48.724] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:48.724] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:35:38'), 122, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:48.809] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:48.809] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:36:40'), Timestamp('2024-10-31 16:36:40'), 122, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:48.900] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:48.900] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:37:44'), Timestamp('2024-10-31 16:37:44'), 122, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:48.988] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:48.988] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:38:55'), Timestamp('2024-10-31 16:49:21'), 122, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:49.068] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:49.068] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:45:55'), 123, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:49.142] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:49.142] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:47:07'), Timestamp('2024-10-31 16:49:21'), 123, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:49.222] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:49.222] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:48:17'), 124, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:49.305] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:49.305] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:49:21'), Timestamp('2024-10-31 16:49:21'), 124, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:49.393] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:49.393] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 125, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:49.474] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:49.474] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 126, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:49.558] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:49.558] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 127, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:49.638] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:49.638] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 128, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:49.738] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:49.738] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 129, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:49.822] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:49.822] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 13, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:49.899] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:49.899] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 130, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:49.974] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:49.974] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 131, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:50.052] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:50.052] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 132, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:50.124] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:50.125] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 133, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:50.208] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:50.209] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 134, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:50.291] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:50.291] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:27:57'), 135, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:50.368] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:50.368] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:28:59'), Timestamp('2024-10-31 16:28:59'), 135, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:50.455] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:50.456] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:30:04'), Timestamp('2024-10-31 16:31:14'), 135, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:50.531] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:50.532] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:32:21'), Timestamp('2024-10-31 16:33:26'), 135, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:50.609] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:50.609] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:34:31'), Timestamp('2024-10-31 16:47:07'), 135, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:50.692] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:50.693] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:48:17'), Timestamp('2024-10-31 16:49:21'), 135, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:50.774] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:50.774] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:35:38'), 136, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:50.857] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:50.857] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:36:40'), Timestamp('2024-10-31 16:45:55'), 136, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:50.937] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:50.937] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:47:07'), Timestamp('2024-10-31 16:47:07'), 136, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:51.015] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:51.015] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:48:17'), Timestamp('2024-10-31 16:49:21'), 136, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:51.094] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:51.094] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:33:26'), 137, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:51.177] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:51.177] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:34:31'), Timestamp('2024-10-31 16:49:21'), 137, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:51.267] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:51.267] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:41:04'), 138, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:51.347] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:51.347] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:42:14'), Timestamp('2024-10-31 16:49:21'), 138, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:51.429] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:51.429] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:37:44'), 139, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:51.509] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:51.509] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:38:55'), Timestamp('2024-10-31 16:44:45'), 139, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:51.593] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:51.593] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:45:55'), Timestamp('2024-10-31 16:49:21'), 139, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:51.676] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:51.676] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 14, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:51.756] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:51.757] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 15:29:13'), 140, '111', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:51.832] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:51.832] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:30:17'), Timestamp('2024-10-31 15:31:19'), 140, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:51.904] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:51.904] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:32:30'), Timestamp('2024-10-31 16:47:07'), 140, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:51.988] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:51.989] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:48:17'), Timestamp('2024-10-31 16:48:17'), 140, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:52.079] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:52.079] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:49:21'), Timestamp('2024-10-31 16:49:21'), 140, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:52.162] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:52.162] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 141, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:52.249] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:52.249] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 142, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:52.331] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:52.331] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 143, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:52.409] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:52.410] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 144, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:52.508] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:52.509] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 145, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:52.591] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:52.591] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 146, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:52.688] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:52.688] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 147, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:52.768] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:52.768] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 148, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:52.845] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:52.845] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 149, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:53.327] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:53.327] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 15, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:53.405] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:53.406] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 150, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:53.481] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:53.481] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 151, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:53.566] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:53.567] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 152, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:53.650] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:53.650] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 153, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:53.731] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:53.733] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 154, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:53.811] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:53.811] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 155, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:53.899] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:53.899] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 156, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:53.970] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:53.971] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 157, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:54.044] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:54.044] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 158, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:54.125] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:54.125] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 159, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:54.205] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:54.206] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 16, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:54.287] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:54.287] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 160, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:54.364] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:54.364] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 15:54:26'), 161, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:54.441] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:54.441] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:55:34'), Timestamp('2024-10-31 15:56:39'), 161, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:54.515] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:54.515] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:57:45'), Timestamp('2024-10-31 15:57:45'), 161, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:54.590] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:54.590] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:58:50'), Timestamp('2024-10-31 15:58:50'), 161, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:54.667] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:54.668] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:00:01'), Timestamp('2024-10-31 16:08:51'), 161, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:54.742] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:54.742] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:09:55'), Timestamp('2024-10-31 16:09:55'), 161, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:54.814] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:54.815] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:11:30'), Timestamp('2024-10-31 16:11:30'), 161, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:54.899] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:54.899] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:12:34'), Timestamp('2024-10-31 16:13:39'), 161, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:54.980] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:54.980] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:14:45'), Timestamp('2024-10-31 16:49:21'), 161, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:55.050] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:55.050] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 162, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:55.128] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:55.128] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 163, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:55.205] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:55.205] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 164, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:55.289] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:55.289] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 165, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:55.367] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:55.367] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 166, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:55.442] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:55.443] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 167, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:55.519] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:55.519] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:43:18'), 168, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:55.590] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:55.590] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:44:45'), Timestamp('2024-10-31 16:49:21'), 168, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:55.661] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:55.661] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:42:14'), 169, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:55.736] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:55.736] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:43:18'), Timestamp('2024-10-31 16:49:21'), 169, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:55.809] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:55.809] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 17, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:55.881] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:55.883] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:38:55'), 170, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:55.965] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:55.965] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:39:59'), Timestamp('2024-10-31 16:39:59'), 170, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:56.051] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:56.051] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:41:04'), Timestamp('2024-10-31 16:41:04'), 170, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:56.128] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:56.128] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:42:14'), Timestamp('2024-10-31 16:43:18'), 170, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:56.202] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:56.203] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:44:45'), Timestamp('2024-10-31 16:49:21'), 170, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:56.269] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:56.269] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 171, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:56.338] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:56.339] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 172, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:56.416] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:56.416] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 173, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:56.499] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:56.499] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 174, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:56.580] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:56.580] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 175, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:56.667] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:56.667] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 176, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:56.745] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:56.745] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 177, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:56.828] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:56.829] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 178, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:56.916] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:56.916] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 179, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:57.018] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:57.018] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 18, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:57.095] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:57.095] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 180, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:57.172] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:57.172] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 181, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:57.254] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:57.254] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 182, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:57.347] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:57.348] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 183, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:57.426] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:57.426] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 184, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:57.512] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:57.513] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 185, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:57.589] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:57.589] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 186, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:57.673] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:57.673] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 187, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:57.750] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:57.750] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 188, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:57.831] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:57.831] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 189, '111', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:57.917] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:57.917] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 19, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:58.010] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:58.011] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 190, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:58.091] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:58.091] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 191, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:58.170] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:58.170] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 192, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:58.251] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:58.251] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 193, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:58.326] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:58.326] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 194, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:58.402] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:58.402] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 195, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:58.476] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:58.476] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 196, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:58.553] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:58.553] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 197, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:58.639] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:58.640] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 198, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:58.719] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:58.719] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 199, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:58.797] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:58.797] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 2, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:58.872] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:58.873] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 20, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:58.971] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:58.971] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 200, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:59.060] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:59.060] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 201, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:59.152] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:59.152] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 202, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:59.242] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:59.242] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 203, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:59.326] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:59.326] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 204, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:59.409] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:59.409] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 205, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:59.492] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:59.492] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 206, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:59.575] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:59.576] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 207, '111', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:59.663] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:59.663] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 208, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:59.743] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:59.743] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 209, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:59.827] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:59.827] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 21, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:59.906] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:59.906] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 210, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:07:59.985] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:07:59.986] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 211, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:00.066] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:00.066] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 212, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:00.145] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:00.146] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 213, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:00.227] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:00.227] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 214, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:00.307] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:00.307] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 215, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:00.387] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:00.387] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 216, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:00.473] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:00.474] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 217, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:00.568] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:00.569] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 218, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:00.643] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:00.643] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 219, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:00.719] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:00.719] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 22, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:00.806] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:00.806] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 220, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:00.878] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:00.879] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 221, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:00.959] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:00.959] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 222, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:01.041] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:01.042] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 223, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:01.122] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:01.122] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 224, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:01.204] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:01.204] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 225, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:01.294] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:01.294] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 226, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:01.369] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:01.370] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 227, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:01.446] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:01.447] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 228, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:01.530] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:01.530] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 229, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:01.612] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:01.613] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 23, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:01.699] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:01.700] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 230, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:01.790] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:01.791] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 231, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:01.880] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:01.880] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 232, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:01.963] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:01.963] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 233, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:02.045] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:02.046] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 234, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:02.210] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:02.211] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 235, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:02.295] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:02.295] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 236, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:02.380] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:02.380] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 15:25:54'), 237, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:02.486] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:02.487] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:26:58'), Timestamp('2024-10-31 15:26:58'), 237, '105', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:02.578] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:02.578] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:28:02'), Timestamp('2024-10-31 16:49:21'), 237, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:02.681] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:02.681] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 238, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:02.766] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:02.767] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 239, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:02.854] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:02.854] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 24, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:02.940] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:02.940] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 240, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:03.028] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:03.028] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 241, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:03.118] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:03.118] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 242, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:03.204] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:03.205] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 243, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:03.294] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:03.294] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 244, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:03.382] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:03.383] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 245, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:03.465] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:03.465] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 246, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:03.547] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:03.547] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 247, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:03.628] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:03.628] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 248, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:03.711] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:03.711] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 249, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:03.793] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:03.793] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 25, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:03.875] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:03.875] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 250, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:03.972] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:03.972] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 251, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:04.056] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:04.056] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 252, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:04.138] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:04.139] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 253, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:04.221] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:04.221] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 254, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:04.311] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:04.311] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 255, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:04.392] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:04.392] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 256, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:04.473] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:04.474] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 257, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:04.578] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:04.578] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 258, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:04.661] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:04.661] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 259, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:04.756] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:04.757] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 26, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:04.846] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:04.848] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 260, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:04.957] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:04.958] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 261, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:05.044] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:05.044] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 262, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:05.138] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:05.138] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 263, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:05.223] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:05.223] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 264, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:05.311] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:05.311] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 265, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:05.405] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:05.407] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 266, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:05.486] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:05.486] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 267, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:05.583] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:05.583] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 268, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:05.669] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:05.670] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 269, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:05.751] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:05.752] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 27, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:05.833] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:05.833] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 270, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:05.912] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:05.912] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 271, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:05.994] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:05.994] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 272, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:06.075] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:06.075] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 273, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:06.162] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:06.162] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 274, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:06.247] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:06.247] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 275, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:06.334] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:06.334] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 276, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:06.421] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:06.421] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 277, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:06.511] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:06.511] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 278, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:06.598] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:06.598] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 279, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:06.684] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:06.685] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 28, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:06.769] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:06.769] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 280, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:06.857] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:06.857] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 281, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:06.962] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:06.962] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 282, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:07.060] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:07.060] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 283, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:07.138] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:07.139] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 284, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:07.226] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:07.226] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 285, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:07.394] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:07.394] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 286, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:07.474] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:07.475] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 287, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:07.638] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:07.638] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 288, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:07.726] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:07.726] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 289, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:07.847] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:07.847] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 29, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:08.020] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:08.020] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 290, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:08.146] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:08.147] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 291, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:08.229] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:08.229] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 292, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:08.306] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:08.307] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 293, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:08.387] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:08.388] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 294, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:08.459] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:08.459] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 295, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:08.530] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:08.530] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 296, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:08.638] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:08.638] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 297, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:08.722] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:08.722] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 298, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:08.798] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:08.798] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:23:39'), 299, '120', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:08:08.873] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'end_time' in 'field list'")
+[2024-11-01 17:08:08.873] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, end_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:24:45'), Timestamp('2024-10-31 16:25:51'), 299, '100', Timestamp('2024-11-01 17:07:44.144993'))
+[2024-11-01 17:09:02.128] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:02.129] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 1, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:02.206] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:02.206] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 10, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:02.308] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:02.308] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:12:34'), 100, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:02.668] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:02.668] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:13:39'), Timestamp('2024-10-31 16:28:59'), 100, '105', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:02.877] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:02.878] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:30:04'), Timestamp('2024-10-31 16:31:14'), 100, '100', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:02.956] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:02.956] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:32:21'), Timestamp('2024-10-31 16:49:21'), 100, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:03.038] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:03.038] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:03:18'), 101, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:03.115] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:03.115] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:04:22'), Timestamp('2024-10-31 16:08:51'), 101, '100', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:03.190] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:03.190] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:09:55'), Timestamp('2024-10-31 16:15:58'), 101, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:03.268] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:03.268] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:17:05'), Timestamp('2024-10-31 16:26:56'), 101, '100', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:03.349] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:03.350] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:27:57'), Timestamp('2024-10-31 16:32:21'), 101, '100', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:03.433] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:03.433] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:33:26'), Timestamp('2024-10-31 16:33:26'), 101, '100', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:03.511] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:03.511] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:34:31'), Timestamp('2024-10-31 16:49:21'), 101, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:03.593] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:03.593] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:24:45'), 102, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:03.673] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:03.673] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:25:51'), Timestamp('2024-10-31 16:32:21'), 102, '105', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:03.755] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:03.755] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:33:26'), Timestamp('2024-10-31 16:33:26'), 102, '100', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:03.838] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:03.838] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:34:31'), Timestamp('2024-10-31 16:49:21'), 102, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:03.920] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:03.920] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:23:39'), 103, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:04.003] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:04.003] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:24:45'), Timestamp('2024-10-31 16:24:45'), 103, '105', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:04.081] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:04.081] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:25:51'), Timestamp('2024-10-31 16:34:31'), 103, '100', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:04.158] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:04.159] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:35:38'), Timestamp('2024-10-31 16:49:21'), 103, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:04.235] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:04.235] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:24:45'), 104, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:04.327] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:04.327] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:25:51'), Timestamp('2024-10-31 16:35:38'), 104, '105', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:04.403] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:04.403] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:36:40'), Timestamp('2024-10-31 16:36:40'), 104, '100', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:04.474] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:04.475] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:37:44'), Timestamp('2024-10-31 16:43:18'), 104, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:04.550] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:04.550] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:44:45'), Timestamp('2024-10-31 16:49:21'), 104, '105', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:04.626] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:04.626] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:25:51'), 105, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:04.706] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:04.706] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:26:56'), Timestamp('2024-10-31 16:36:40'), 105, '105', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:04.780] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:04.780] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:37:44'), Timestamp('2024-10-31 16:49:21'), 105, '100', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:04.855] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:04.855] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:26:56'), 106, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:04.931] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:04.931] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:27:57'), Timestamp('2024-10-31 16:44:45'), 106, '105', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:05.015] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:05.015] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:45:55'), Timestamp('2024-10-31 16:49:21'), 106, '100', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:05.097] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:05.098] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:32:21'), 107, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:05.169] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:05.169] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:33:26'), Timestamp('2024-10-31 16:49:21'), 107, '105', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:05.248] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:05.248] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:31:14'), 108, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:05.320] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:05.320] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:32:21'), Timestamp('2024-10-31 16:49:21'), 108, '105', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:05.390] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:05.391] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 109, '111', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:05.460] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:05.460] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 11, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:05.533] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:05.534] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:39:59'), 110, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:05.608] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:05.608] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:41:04'), Timestamp('2024-10-31 16:49:21'), 110, '105', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:05.685] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:05.686] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:41:04'), 111, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:05.760] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:05.761] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:42:14'), Timestamp('2024-10-31 16:49:21'), 111, '105', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:05.835] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:05.835] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:48:17'), 112, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:05.906] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:05.907] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:49:21'), Timestamp('2024-10-31 16:49:21'), 112, '105', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:05.981] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:05.982] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 113, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:06.057] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:06.057] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 114, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:06.127] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:06.128] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 115, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:06.203] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:06.204] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 116, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:06.272] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:06.273] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 117, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:06.341] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:06.343] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 118, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:06.416] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:06.416] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 119, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:06.500] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:06.500] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 12, '111', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:06.580] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:06.580] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 120, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:06.664] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:06.665] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:49:21'), 121, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:06.746] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:06.746] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 15:04:28'), Timestamp('2024-10-31 16:35:38'), 122, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:06.826] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:06.826] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:36:40'), Timestamp('2024-10-31 16:36:40'), 122, '105', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:06.910] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:06.910] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:37:44'), Timestamp('2024-10-31 16:37:44'), 122, '120', Timestamp('2024-11-01 17:09:02.081384'))
+[2024-11-01 17:09:07.029] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:149] (1054, "Unknown column 'raise_time' in 'field list'")
+[2024-11-01 17:09:07.029] [C:\Users\35310\Desktop\cccc_alg\MD\DB\tools.py]
+[MainProcess][MainThread][ERROR:execute_dml:150] sql as: INSERT INTO t_start_stop(start_time, stop_time, fan_id, block_type1, raise_time)VALUES(%s, %s, %s, %s, %s), args as: (Timestamp('2024-10-31 16:38:55'), Timestamp('2024-10-31 16:49:21'), 122, '105', Timestamp('2024-11-01 17:09:02.081384'))

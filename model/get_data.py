@@ -59,10 +59,10 @@ class GetData(ProcessABC):
 
     def run(self, **kwargs):
         now = kwargs['params']
-        self.end_time = now.replace(tzinfo=timezone(timedelta(hours=8)))
-        self.start_time = get_start_time().replace(tzinfo=timezone(timedelta(hours=8)))
+        # self.end_time = now.replace(tzinfo=timezone(timedelta(hours=8)))
+        # self.start_time = get_start_time().replace(tzinfo=timezone(timedelta(hours=8)))
         data = self.get_influx()
-        return self.return_data(data=data, start_time=self.start_time, end_time=self.end_time)
+        return self.return_data(data=data)
 
     def get_influx(self):
         """
@@ -86,6 +86,7 @@ class GetData(ProcessABC):
                 f"[GetData]在时间窗口{self.start_time}:{self.end_time}上查询到数据{influx.shape[0]}条.")
         influx['time'] = influx['time'].dt.floor('S')
         influx['_field'] = influx['_field'].astype(int)
+        influx['_value'] = influx['_value'].astype(int)
         return {'influx': influx}
 
 
