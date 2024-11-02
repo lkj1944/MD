@@ -90,35 +90,49 @@ class GetData(ProcessABC):
         return {'influx': influx}
 
 
-#Todo： 需要优化，多次读取查询速度过慢
+#Todo： 优化，删除refresh重新插入操作，优化FAD模型输出，写入到exl文件的同时输出df作为DA模型的输入
+import pandas as pd
+
+
 class FetchAlarmData(ProcessABC):
     def run(self, **kwargs):
         df = kwargs['params']['data']['influx']
         file_path = "../xlsx"
+        data = {}
+
         if os.path.exists(file_path):
-            for index, column in df.iterrows():
-                sheet_name = f"turbine{column['_field']}"
-                xlsx_path = file_path + f"/turbine{column['_field']}.xlsx"
+            df = df.sort_values(by=['_field'], ascending=True)
+
+            for field, group_df in df.groupby('_field'):
+                sheet_name = f"turbine{field}"
+                xlsx_path = file_path + f"/turbine{field}.xlsx"
+
                 if os.path.exists(xlsx_path):
                     try:
-                        with pd.ExcelWriter(xlsx_path, mode='a', engine='openpyxl', if_sheet_exists='overlay') as writer:
-                            df_comparison = read_excel(xlsx_path)
-                            label = any((df_comparison['time'] - column['time']).abs() <= pd.Timedelta(seconds=1))
-                            if label:
-                                continue
-                            workbook = writer.book
-                            worksheet = workbook[sheet_name]
-                            worksheet.append(column.tolist())
-                            workbook.save(xlsx_path)
+                        with pd.ExcelWriter(xlsx_path, mode='a', engine='openpyxl',
+                                            if_sheet_exists='overlay') as writer:
+                            df_pre = pd.read_excel(xlsx_path)
+                            for _, pre_row in df_pre.iterrows():
+                                mask = (group_df['time'] - pre_row['time']).abs() < timedelta(seconds=1)
+                                group_df = group_df[~mask]
+
+                            combined_df = pd.concat([group_df, df_pre])
+                            combined_df = combined_df.sort_values(by='time', ascending=True).reset_index(drop=True)
+                            combined_df.to_excel(writer, index=False, sheet_name=sheet_name)
+                            data[field] = combined_df
                     except zipfile.BadZipfile as e:
                         logger.error(f"查找{xlsx_path}文件时出现错误{e}")
                 else:
                     with pd.ExcelWriter(xlsx_path, mode='w', engine='openpyxl') as writer:
-                        pd.DataFrame([column]).to_excel(writer, sheet_name=sheet_name, index=False)
+                        group_df = group_df.sort_values(by='time', ascending=True).reset_index(drop=True)
+                        group_df.to_excel(writer, index=False, sheet_name=sheet_name)
+                        data[field] = group_df
         else:
             logger.error(f"[FetchAlarmData]找不到xlsx文件夹")
 
-        refresh_turbine_xlsx()
+        combined_data_df = pd.concat(data.values()).reset_index(drop=True)
+
+        return self.return_data(data=combined_data_df)
 
 
 if __name__ == "__main__":
@@ -128,4 +142,4 @@ if __name__ == "__main__":
     model1 = FetchAlarmData()
     model1.run(params=res)
     print(res)
-    print(now_time,datetime.now())
+    print(now_time, datetime.now())
