@@ -17,6 +17,8 @@ from functools import wraps
 from loguru import logger
 import time
 
+from pandas import NaT
+
 
 def retry(max_attempts=3, delay=0):
     def decorator(func):
@@ -286,6 +288,8 @@ class connection(GetClient):
                   f'({fields})' \
                   f'VALUES' \
                   f'({args_str})'
+        if values[1] is NaT:
+            values[1] = None
         self.execute_dml(sql=sql_dml, args=tuple(values))
 
 

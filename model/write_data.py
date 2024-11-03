@@ -1,16 +1,19 @@
 import math
 # -*- coding: utf-8 -*-
 import re
-import time
+
 from datetime import datetime, timedelta
-import numpy as np
+
 import pandas as pd
+
 
 from model.tools import ProcessABC
 from model.data_analysis import DataAnalysis
-from loguru import logger
+
 from DB import connection
 from influxdb_client import WritePrecision, Point
+
+# Todo : Writing speed optimization needed, freaking 1000 pieces of data need 200s to insert in the database
 class WriteRes(ProcessABC):
     """
     结果写入主对象
@@ -30,15 +33,31 @@ class WriteRes(ProcessABC):
         对外暴露方法，用于处理整个流程，一切基于对象本身属性进行修改
         :return:
         """
-        output_data = kwargs['params']['data']
-        output_data.rename(columns={'_field': 'fan_id','_status': "block_type1", 'end_time': 'stop_time'}, inplace=True)
+        self.write_alarm_res(kwargs['params']['data'][0])
+        self.write_health_res(kwargs['params']['data'][1])
+
+        return self.return_data(data=kwargs['params']['data'])
+
+    def write_alarm_res(self, output_data):
+        output_data.rename(columns={'_field': 'fan_id', '_status': "block_type1", 'end_time': 'stop_time'},
+                           inplace=True)
+
+        output_data['stop_time'] = pd.to_datetime(output_data['stop_time'], errors='coerce')
+        output_data['stop_time'] = output_data['stop_time'].apply(lambda x: None if pd.isna(x) else x)
+
         output_data.drop(columns=['_value'], inplace=True)
         output_data['create_time'] = datetime.now()
-        field = output_data.columns.tolist()
-        values = output_data.values.tolist()  # 将 DataFrame 转换为嵌套列表
-        self.write_res(values, field, 't_start_stop')
-        return self.return_data(data=output_data)
 
+        field = output_data.columns.tolist()
+        values = output_data.values.tolist()
+        self.write_res(values, field, 't_start_stop')
+
+    def write_health_res(self, output_data):
+        output_data['update_time'] = datetime.now()
+
+        field = output_data.columns.tolist()
+        values = output_data.values.tolist()
+        self.write_res(values, field, 'intelligent_perception_fan_health')
     def write_res(self, wait_write, field, table):
         """
         将结果输出到sql，二开self.put_sql

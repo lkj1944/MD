@@ -59,10 +59,10 @@ class GetData(ProcessABC):
 
     def run(self, **kwargs):
         now = kwargs['params']
-        # self.end_time = now.replace(tzinfo=timezone(timedelta(hours=8)))
-        # self.start_time = get_start_time().replace(tzinfo=timezone(timedelta(hours=8)))
+        self.start_time = datetime(2024, 10, 31, 12, 0).replace(tzinfo=timezone(timedelta(hours=8)))
+        self.end_time = datetime(2024, 10, 31, 12, 30).replace(tzinfo=timezone(timedelta(hours=8)))
         data = self.get_influx()
-        return self.return_data(data=data)
+        return self.return_data(data=data,start=self.start_time,end=self.end_time)
 
     def get_influx(self):
         """
@@ -91,13 +91,11 @@ class GetData(ProcessABC):
 
 
 #Todo： 优化，删除refresh重新插入操作，优化FAD模型输出，写入到exl文件的同时输出df作为DA模型的输入
-import pandas as pd
-
 
 class FetchAlarmData(ProcessABC):
     def run(self, **kwargs):
         df = kwargs['params']['data']['influx']
-        file_path = "../xlsx"
+        file_path = "xlsx"
         data = {}
 
         if os.path.exists(file_path):
