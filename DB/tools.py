@@ -209,7 +209,7 @@ class connection(GetClient):
         return res_dict
 
     @retry(max_attempts=5, delay=0)
-    def query_flux(self, bucket_name, start=None, end=None, filter=None, last_time='-5m', limit=None, import_name=None,
+    def query_flux(self, bucket_name, start=None, end=None, filter=None, last_time='-20m', limit=None, import_name=None,
                    sort=False, return_type='original'):
         """
         给influxdb写的二开接口，主要是为了简介开发查询语句
@@ -292,6 +292,23 @@ class connection(GetClient):
             values[1] = None
         self.execute_dml(sql=sql_dml, args=tuple(values))
 
+    def update_sql(self, table, fields, values, condition_field, condition_value):
+        """
+        动态 UPDATE SQL 方法，用于根据条件更新表中的数据。
+        :param table: 表名
+        :param fields: 要更新的字段列表
+        :param values: 新值列表
+        :param condition_field: 条件字段名（例如 fan_id）
+        :param condition_value: 条件字段的值
+        :return:
+        """
+        # 生成字段和值的 SET 语句部分
+        set_clause = ', '.join([f"{field} = %s" for field in fields])
+        sql_dml = f'UPDATE {table} SET {set_clause} WHERE {condition_field} = %s'
+
+        # 添加条件值到参数中
+        values.append(condition_value)
+        self.execute_dml(sql=sql_dml, args=tuple(values))
 
 if __name__ == '__main__':
     get = connection()

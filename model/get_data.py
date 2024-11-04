@@ -59,8 +59,8 @@ class GetData(ProcessABC):
 
     def run(self, **kwargs):
         now = kwargs['params']
-        self.start_time = datetime(2024, 10, 31, 12, 0).replace(tzinfo=timezone(timedelta(hours=8)))
-        self.end_time = datetime(2024, 10, 31, 12, 30).replace(tzinfo=timezone(timedelta(hours=8)))
+        # self.start_time = datetime(2024, 10, 31, 12, 0).replace(tzinfo=timezone(timedelta(hours=8)))
+        # self.end_time = datetime(2024, 10, 31, 12, 5).replace(tzinfo=timezone(timedelta(hours=8)))
         data = self.get_influx()
         return self.return_data(data=data,start=self.start_time,end=self.end_time)
 

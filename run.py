@@ -55,7 +55,6 @@ def run(flow, **kwargs):
         logger.info(f"{flow}执行时长：{time_end_all - time_start_all}")
     except Exception as e:
         logger.error(f"flow {cls} failed with exception:{e}, runtime parameter is {params}")
-        raise e
 
 
 def main(**kwargs):
@@ -75,10 +74,9 @@ if __name__ == '__main__':
     # parser.add_argument('--class_name', nargs='+', help='Class names')
     # parser.add_argument('--start_time', help='Start time')
     # parser.add_argument('--end_time', help='End time')
-    # scheduler.add_job(
-    #     main,
-    #     CronTrigger(minute='*/10'),  # 每五分钟执行一次
-    #     id='alarm_data_process'
-    # )
-    # scheduler.start()
-    main()
+    scheduler.add_job(
+        main,
+        CronTrigger(minute='*/20'),  # 每五分钟执行一次
+        id='alarm_data_process'
+    )
+    scheduler.start()

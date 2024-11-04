@@ -5,7 +5,7 @@ import re
 from datetime import datetime, timedelta
 
 import pandas as pd
-
+from loguru import logger
 
 from model.tools import ProcessABC
 from model.data_analysis import DataAnalysis
@@ -33,9 +33,13 @@ class WriteRes(ProcessABC):
         对外暴露方法，用于处理整个流程，一切基于对象本身属性进行修改
         :return:
         """
+        now1 = datetime.now()
         self.write_alarm_res(kwargs['params']['data'][0])
+        now2 = datetime.now()
+        logger.info(f"写入报警数据花费的时间为{now2-now1}")
         self.write_health_res(kwargs['params']['data'][1])
-
+        now3 = datetime.now()
+        logger.info(f"写入健康度花费的时间为{now3-now2}")
         return self.return_data(data=kwargs['params']['data'])
 
     def write_alarm_res(self, output_data):
@@ -50,14 +54,28 @@ class WriteRes(ProcessABC):
 
         field = output_data.columns.tolist()
         values = output_data.values.tolist()
-        self.write_res(values, field, 't_start_stop')
+        # self.write_res(values, field, 't_start_stop')
 
     def write_health_res(self, output_data):
         output_data['update_time'] = datetime.now()
 
-        field = output_data.columns.tolist()
-        values = output_data.values.tolist()
-        self.write_res(values, field, 'intelligent_perception_fan_health')
+        fields_to_update = ['score', 'update_time']
+
+        for _, row in output_data.iterrows():
+            # 获取要更新的值列表
+            values_to_update = [row['score'], row['update_time']]
+            # 获取 fan_id 作为条件
+            fan_id = row['fan_id']
+
+            # 调用 update 方法
+            self.db_util.update_sql(
+                table='intelligent_perception_fan_health',
+                fields=fields_to_update,
+                values=values_to_update,
+                condition_field='fan_id',
+                condition_value=fan_id
+            )
+
     def write_res(self, wait_write, field, table):
         """
         将结果输出到sql，二开self.put_sql
